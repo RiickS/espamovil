@@ -1,0 +1,441 @@
+.header-row {
+    max-width: 475px;
+}
+
+.header-right-text {
+    font-size: 9px;
+    font-family: 'Gotham-Ultra';
+}
+
+/* |||| MAIN SECTION  ||||  */
+
+.main-title-bold {
+    font-family: 'Gotham-Bold';
+    font-size: calc(1.2em + 1.0vw);
+}
+
+.main-title-reg {
+    font-family: 'Gotham-Book';
+    font-size: calc(.9em + 0.8vw);
+}
+
+.main-section img {
+    width: 100%;
+}
+
+/* |||| FORM SECTION ||||  */
+
+.form-section-img {
+    background-color: #004a8f;
+    width: 60px;
+    padding: 15px;
+    border-radius: 50%;
+    height: 60px;
+}
+
+.form-section-text {
+    font-family: 'Gotham-Bold';
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.form-section-text-secondLine {
+    font-family: 'Gotham-Book';
+}
+
+.form-message {
+    height: 121px;
+}
+
+.form-message textarea {
+    height: 121px;
+    background-color: #dcdcdc;
+}
+
+.form-message textarea:focus {
+    background-color: #dcdcdc;
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+
+.form-group label {
+    margin-bottom: 0.2rem;
+    font-family: 'Gotham-Medium';
+}
+
+.form-group input {
+    background-color: #dcdcdc;
+}
+
+.form-group input:focus {
+    background-color: #dcdcdc;
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+
+.form-text-small {
+    font-family: 'Gotham-Book';
+}
+
+.button-link {
+    color: white;
+    font-family: 'Gotham-Medium';
+    background-color: #004a8f;
+    width: 20%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    letter-spacing: 1px;
+}
+
+.button-link:hover {
+    background-color: #0c2c4a;
+}
+
+@keyframes click {
+    25%, 75% {
+        -webkit-transform: scale(0.8);
+    }
+    50% {
+        -webkit-transform: scale(1.0);
+    }
+}
+
+/* |||| PROMO SECTION ||||  */
+
+.promo-section {
+    margin-top: 6rem;
+}
+
+.promo-title h2 {
+    font-family: 'Gotham-Bold';
+    font-size: calc(1.2em + 0.9vw)
+}
+
+.promo-1 {
+    height: 320px;
+    background: red;
+    border-radius: 50%;
+    font-family: 'Gotham-Bold';
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    left: 40px;
+    padding: 0;
+}
+
+.promo-2 {
+    height: 320px;
+    background: #07beff;
+    border-radius: 50%;
+    font-family: 'Gotham-Bold';
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0;
+}
+
+.promo-3 {
+    height: 320px;
+    background: yellow;
+    border-radius: 50%;
+    font-family: 'Gotham-Bold';
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    padding: 0;
+}
+
+.promos h2 {
+    font-size: calc(1em + .8vw);
+}
+
+.promo-span {
+    font-size: calc(1.3em + 1.1vw);
+}
+
+.promo-span-number {
+    font-size: calc(1.9em + 1.5vw);
+}
+
+.expired-promo {
+    font-family: 'Gotham-Medium';
+    font-size: calc(.5em + 0.5vw);
+    margin-top: 4rem;
+}
+
+/* |||| BENEFITS SECTION ||||  */
+
+.benefits-section {
+    background-color: #ebebeb;
+    position: relative;
+}
+
+.logo-benefits-section {
+    position: absolute;
+}
+
+.logo-benefits-section img {
+    width: 100%;
+    max-width: 145px;
+}
+
+.benefits-title {
+    font-family: 'Gotham-Bold';
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.benefits-title h2 {
+    font-size: calc(1.2em + 0.9vw)
+}
+
+.associate a {
+    background: red;
+    color: white;
+    padding: 10px 80px;
+    padding-left: 40px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-family: 'Gotham-Bold';
+    font-size: calc(1.6em + 1.3vw);
+    position: relative;
+    text-decoration: none;
+}
+
+.associate a:focus {
+    outline: none;
+}
+
+.associate-click {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 15%;
+}
+
+.benefits-section {
+    margin-top: 125px;
+}
+
+.benefits-row {
+    margin-top: 75px;
+}
+
+.row-benefits-content {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.benefits-content h5 {
+    font-family: 'Gotham-Bold';
+    text-align: center;
+}
+
+.benefits-content p {
+    font-family: 'Gotham-Book';
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.content-icon {
+    height: 140px;
+    width: 140px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.benefits-content-icon {
+    justify-content: center;
+    display: flex;
+}
+
+.unity-icon .content-icon, .callCenter-icon .content-icon {
+    background-color: red;
+}
+
+.specialists-icon .content-icon, .software-icon .content-icon {
+    background-color: #07beff;
+}
+
+.map-icon .content-icon {
+    background-color: #ffe600;
+}
+
+/* |||| LAST SECTION ||||  */
+
+.last-section {
+    margin-top: -3rem;
+}
+
+.last-section-text h2 {
+    font-family: 'Gotham-Bold';
+    font-size: calc(1.5em + 1vw);
+}
+
+.last-section-text p {
+    font-family: 'Gotham-Book';
+    font-size: 17px;
+}
+
+/* |||| MEDIA QUERY ||||  */
+
+@media (min-width: 1200px) {
+    .logo-benefits-section img {
+        width: 90%;
+    }
+}
+
+@media (min-width: 990px) {
+    .main-section img {
+        width: 80%;
+    }
+    .benefits-content {
+        padding-top: 4rem;
+    }
+    .associate:hover img {
+        animation: 1s click 1;
+    }
+}
+
+@media (max-width: 989px) {
+    .content-icon {
+        height: 125px;
+        width: 125px;
+        padding: 30px;
+    }
+    .benefits-section {
+        margin-top: 115px;
+    }
+    .benefits-row {
+        margin-top: 75px;
+    }
+}
+
+@media (min-width: 768px) {
+    .benefits-content h5 {
+        text-align: left;
+    }
+    .row-benefits-content {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-link {
+        width: 51%;
+        margin-top: 2rem;
+        padding: 10px 15px;
+    }
+    .content-icon {
+        height: 100px;
+        width: 100px;
+        padding: 25px;
+    }
+    .logo-benefits-section img {
+        max-height: 100px;
+        max-width: 100px
+    }
+    .benefits-section {
+        margin-top: 95px;
+    }
+    .benefits-row {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .promo-3 {
+        right: 40px;
+    }
+    .promos h2 {
+        font-size: calc(.7em + .6vw);
+    }
+    .promo-span {
+        font-size: calc(1.2em + 1vw);
+    }
+    .promo-span-number {
+        font-size: calc(1.8em + 1.4vw);
+    }
+}
+
+@media (max-width: 576px) {
+    .header-row {
+        max-width: 325px;
+    }
+    .promo-1 {
+        height: 100px;
+        top: 50px;
+    }
+    .promo-2 {
+        height: 100px;
+        bottom: 20px;
+    }
+    .promo-3 {
+        height: 100px;
+        top: 50px;
+    }
+    .promo-1 h2, .promo-2 h2, .promo-3 h2 {
+        font-size: 12px;
+    }
+    .promos .promo-span {
+        font-size: 26px;
+    }
+    .promos .promo-span-number {
+        font-size: 38px;
+    }
+    .associate a {
+        font-size: calc(1.2em + 1.1vw);
+    }
+    .main-title-bold {
+        font-size: calc(1.2em + .8vw);
+    }
+    .main-title-reg {
+        font-size: calc(1em + 0.6vw);
+    }
+    .benefits-section {
+        margin-top: 85px;
+    }
+    .benefits-content {
+        padding: 2rem;
+    }
+    .benefits-row {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:480px) {
+    .promo-1 h2, .promo-2 h2, .promo-3 h2 {
+        font-size: 10px;
+    }
+    .promos .promo-span {
+        font-size: 20px;
+    }
+    .promos .promo-span-number {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 425px) {
+    .content-icon {
+        height: 75px;
+        width: 75px;
+        padding: 15px;
+    }
+}
